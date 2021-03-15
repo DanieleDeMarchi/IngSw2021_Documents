@@ -7,6 +7,7 @@
 - [Flutter](#flutter)
   - [Verificare corretta installazione flutter e plugin per Android Studio](#verificare-corretta-installazione-flutter-e-plugin-per-android-studio)
   - [Errore dipendenze integration_test](#errore-dipendenze-integration_test)
+- [Android Studio](#android-studio)
 - [Node JS server](#node-js-server)
   - [Corretta gestione errori express](#corretta-gestione-errori-express)
   - [Evitare attacchi XSS](#evitare-attacchi-xss)
