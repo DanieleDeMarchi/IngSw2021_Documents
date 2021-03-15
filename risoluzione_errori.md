@@ -5,6 +5,7 @@
 <!-- code_chunk_output -->
 
 - [Flutter](#flutter)
+  - [Verificare corretta installazione flutter e plugin per Android Studio](#verificare-corretta-installazione-flutter-e-plugin-per-android-studio)
   - [Errore dipendenze integration_test](#errore-dipendenze-integration_test)
 - [Node JS server](#node-js-server)
   - [Corretta gestione errori express](#corretta-gestione-errori-express)
@@ -15,9 +16,12 @@
 
 <!-- /code_chunk_output -->
 
----
-
 ## Flutter
+
+### Verificare corretta installazione flutter e plugin per Android Studio
+
+`> flutter doctor --verbose`
+(la cartella flutter\bin dev'essere all'interno delle variabili di sistema (PATH) per poter eseguire questo comando)
 
 ### Errore dipendenze integration_test
 
@@ -40,7 +44,7 @@ Aggiornamento flutter dopo switch versione:
 
 `> flutter upgrade`
 
----
+## Android Studio
 
 ## Node JS server
 
@@ -80,19 +84,13 @@ app.use(function (err, req, res, next) {
 });
 ```
 
----
-
 ### Evitare attacchi XSS
 
 ##### Server side sanitazion
 
 ##### Client side sanitazion
 
----
-
 ## Heroku
-
----
 
 ## Firebase
 
