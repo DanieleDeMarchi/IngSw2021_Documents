@@ -30,12 +30,12 @@
 
 ![integration_test Error](/images/ERROR_integration_test.jpg)
 
-Errore dovuto alla mancanza di alcune dipendenze nella verisione stabile fi flutter 1.22.\*
+Errore dovuto alla mancanza di alcune dipendenze nella verisione stabile di flutter 1.22.\*
 Per risolvere errore passare alla versione "dev" dell'sdk flutter.
 
 Per verificare la versione di flutter attualmente in uso:
 
-`> flutter: "flutter channel"`
+`> flutter channel`
 
 Per cambiare versione a "dev":
 
