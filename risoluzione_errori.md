@@ -21,7 +21,52 @@
 
 ### Verificare corretta installazione flutter e plugin per Android Studio
 
-`> flutter doctor --verbose`
+```
+> flutter doctor --verbose
+
+[✓] Flutter (Channel dev, 1.27.0-8.0.pre, on Microsoft Windows [Versione 10.0.18363.1440], locale it-IT)
+• Flutter version 1.27.0-8.0.pre at C:\Development\flutter
+• Framework revision b7d4806243 (3 weeks ago), 2021-02-19 09:22:45 -0800
+• Engine revision 6993cb229b
+• Dart version 2.13.0 (build 2.13.0-30.0.dev)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.2)
+• Android SDK at C:\Users\Daniele\AppData\Local\Android\sdk
+• Platform android-30, build-tools 30.0.2
+• Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+• Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+• All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+• Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 4.1.0)
+• Android Studio at C:\Program Files\Android\Android Studio
+• Flutter plugin can be installed from:
+🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+• Dart plugin can be installed from:
+🔨 https://plugins.jetbrains.com/plugin/6351-dart
+• Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[✓] IntelliJ IDEA Community Edition (version 2020.2)
+• IntelliJ at C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3
+• Flutter plugin can be installed from:
+🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+• Dart plugin can be installed from:
+🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[✓] VS Code (version 1.54.1)
+• VS Code at C:\Users\Daniele\AppData\Local\Programs\Microsoft VS Code
+• Flutter extension can be installed from:
+🔨 https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
+[✓] Connected device (2 available)
+• Chrome (web) • chrome • web-javascript • Google Chrome 89.0.4389.82
+• Edge (web) • edge • web-javascript • Microsoft Edge 87.0.664.47
+
+• No issues found!
+```
+
 (la cartella flutter\bin dev'essere all'interno delle variabili di sistema (PATH) per poter eseguire questo comando)
 
 ### Errore dipendenze integration_test
